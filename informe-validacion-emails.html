@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html lang="es" itemscope itemtype="https://schema.org/Report">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Informe de validación de emails para Coltefinanciera - Análisis de 41,011 contactos distribuidos en tres fideicomisos con métricas de validez, rebote y duplicados - Agosto 2025">
+    <meta name="keywords" content="Coltefinanciera, validación emails, fideicomisos, análisis contactos, tasa rebote, duplicados, agosto 2025">
+    <meta name="author" content="Coltefinanciera">
+    <meta property="og:title" content="Informe de Validación de Emails - Coltefinanciera Agosto 2025">
+    <meta property="og:description" content="Análisis completo de 41,011 contactos distribuidos en tres fideicomisos con métricas de validez y calidad de datos">
+    <meta property="og:type" content="article">
+    <title>Informe de Validación de Emails - Coltefinanciera Agosto 2025</title>
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+    <!-- Styles -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Schema.org structured data -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "Report",
+        "name": "Informe de Validación de Emails - Coltefinanciera",
+        "description": "Análisis de validación de 41,011 contactos distribuidos en tres fideicomisos",
+        "datePublished": "2025-08-07",
+        "author": {
+            "@type": "Organization",
+            "name": "Coltefinanciera"
+        },
+        "about": {
+            "@type": "Dataset",
+            "name": "Contactos Fideicomisos Coltefinanciera",
+            "description": "Base de datos de contactos de tres fideicomisos con métricas de validación",
+            "measurementTechnique": "Validación de emails",
+            "variableMeasured": ["Emails válidos", "Emails rebotados", "Emails duplicados"]
+        }
+    }
+    </script>
+</head>
+<body>
+    <div class="report-container">
+        <!-- Header Section -->
+        <header class="header-section">
+            <div class="header-content">
+                <div class="company-logo">COLTEFINANCIERA</div>
+                <h1 class="report-title">Informe de Validación de Emails - Tres Fideicomisos - Agosto 2025</h1>
+                <p class="report-subtitle">Análisis Completo de 41,011 Contactos con Métricas de Validez, Rebote y Duplicados</p>
+                <div class="report-date">Generado el 7 de Agosto de 2025</div>
+            </div>
+        </header>
+
+        <div class="content-section">
+            <!-- Table of Contents -->
+            <nav class="table-of-contents" role="navigation" aria-label="Tabla de contenidos del informe">
+                <h2 class="toc-title">
+                    <i class="material-icons">list</i>
+                    Índice de Contenidos
+                </h2>
+                <ul class="toc-list">
+                    <li class="toc-item">
+                        <a href="#resumen" class="toc-link">
+                            <i class="material-icons toc-icon">summarize</i>
+                            Resumen Ejecutivo
+                        </a>
+                    </li>
+                    <li class="toc-item">
+                        <a href="#empresas" class="toc-link">
+                            <i class="material-icons toc-icon">business</i>
+                            Análisis por Empresa
+                        </a>
+                    </li>
+                    <li class="toc-item">
+                        <a href="#insights" class="toc-link">
+                            <i class="material-icons toc-icon">insights</i>
+                            Insights y Recomendaciones
+                        </a>
+                    </li>
+                    <li class="toc-item">
+                        <a href="#detallado" class="toc-link">
+                            <i class="material-icons toc-icon">analytics</i>
+                            Análisis Detallado
+                        </a>
+                    </li>
+                    <li class="toc-item">
+                        <a href="#duplicados" class="toc-link">
+                            <i class="material-icons toc-icon">content_copy</i>
+                            Correos Duplicados
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+
+
+
+            <!-- Summary Section -->
+            <section id="resumen" class="section-anchor">
+                <div class="summary-card">
+                    <div class="total-label">Total de Contactos Analizados</div>
+                    <div class="total-value">41,011</div>
+                </div>
+
+                <div class="analysis-section">
+                    <h2 class="analysis-title">
+                        <i class="material-icons">assessment</i>
+                        Análisis General de Validación de Emails en los Tres Fideicomisos - Agosto 2025
+                    </h2>
+                    
+                    <div class="analysis-grid">
+                        <div class="analysis-card primary">
+                            <div class="analysis-header">
+                                <i class="material-icons">check_circle</i>
+                                <h3>Emails Válidos</h3>
+                            </div>
+                            <div class="analysis-content">
+                                <div class="metric-value">34,515</div>
+                                <div class="metric-percentage valid">84.16%</div>
+                                <p class="metric-description">Excelente tasa de validez</p>
+                            </div>
+                        </div>
+
+                        <div class="analysis-card danger">
+                            <div class="analysis-header">
+                                <i class="material-icons">error</i>
+                                <h3>Emails que Rebotan</h3>
+                            </div>
+                            <div class="analysis-content">
+                                <div class="metric-value">6,438</div>
+                                <div class="metric-percentage bounce">15.70%</div>
+                                <p class="metric-description">Requiere limpieza</p>
+                            </div>
+                        </div>
+
+                        <div class="analysis-card warning">
+                            <div class="analysis-header">
+                                <i class="material-icons">content_copy</i>
+                                <h3>Emails Duplicados</h3>
+                            </div>
+                            <div class="analysis-content">
+                                <div class="metric-value">58</div>
+                                <div class="metric-percentage duplicate">0.14%</div>
+                                <p class="metric-description">Duplicación mínima</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Companies Section -->
+            <section id="empresas" class="section-anchor">
+                <h2 class="section-title">Comparativa de Tasa de Validez y Rebote en los Tres Fideicomisos - Agosto 2025</h2>
+                
+                <div class="companies-grid">
+                    <!-- A&S Soluciones Estratégicas SAS -->
+                    <div class="company-card" itemscope itemtype="https://schema.org/Organization">
+                        <div class="company-header">
+                            <i class="material-icons">business</i>
+                            <h3 itemprop="name">A&S Soluciones Estratégicas SAS</h3>
+                        </div>
+                        <div class="company-content">
+                            <table class="company-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Métrica</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Porcentaje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Emails válidos</td>
+                                        <td class="status-valid">10,322</td>
+                                        <td class="metric-percentage valid">84.13%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emails que rebotan</td>
+                                        <td class="status-bounce">1,934</td>
+                                        <td class="metric-percentage bounce">15.76%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duplicados</td>
+                                        <td class="status-duplicate">14</td>
+                                        <td class="metric-percentage duplicate">0.11%</td>
+                                    </tr>
+                                    <tr class="total-row">
+                                        <td><strong>Total</strong></td>
+                                        <td><strong itemprop="size">12,270</strong></td>
+                                        <td><strong>100%</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Mobile View -->
+                            <div class="mobile-table-view">
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails válidos</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-valid">10,322</span>
+                                        <span class="metric-percentage valid">84.13%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails que rebotan</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-bounce">1,934</span>
+                                        <span class="metric-percentage bounce">15.76%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Duplicados</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-duplicate">14</span>
+                                        <span class="metric-percentage duplicate">0.11%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card total-card">
+                                    <div class="mobile-card-header"><strong>Total</strong></div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value"><strong>12,270</strong></span>
+                                        <span class="metric-percentage"><strong>100%</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <meta itemprop="name" content="Dataset A&S Soluciones Estratégicas SAS">
+                        <meta itemprop="description" content="Análisis de validación de emails para A&S Soluciones Estratégicas SAS">
+                    </div>
+
+                    <!-- Consultores Y Asesores Gómez SA -->
+                    <div class="company-card" itemscope itemtype="https://schema.org/Organization">
+                        <div class="company-header">
+                            <i class="material-icons">business</i>
+                            <h3 itemprop="name">Consultores Y Asesores Gómez SA</h3>
+                        </div>
+                        <div class="company-content">
+                            <table class="company-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Métrica</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Porcentaje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Emails válidos</td>
+                                        <td class="status-valid">11,570</td>
+                                        <td class="metric-percentage valid">85.44%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emails que rebotan</td>
+                                        <td class="status-bounce">1,952</td>
+                                        <td class="metric-percentage bounce">14.42%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duplicados</td>
+                                        <td class="status-duplicate">19</td>
+                                        <td class="metric-percentage duplicate">0.14%</td>
+                                    </tr>
+                                    <tr class="total-row">
+                                        <td><strong>Total</strong></td>
+                                        <td><strong itemprop="size">13,541</strong></td>
+                                        <td><strong>100%</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Mobile View -->
+                            <div class="mobile-table-view">
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails válidos</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-valid">11,570</span>
+                                        <span class="metric-percentage valid">85.44%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails que rebotan</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-bounce">1,952</span>
+                                        <span class="metric-percentage bounce">14.42%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Duplicados</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-duplicate">19</span>
+                                        <span class="metric-percentage duplicate">0.14%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card total-card">
+                                    <div class="mobile-card-header"><strong>Total</strong></div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value"><strong>13,541</strong></span>
+                                        <span class="metric-percentage"><strong>100%</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <meta itemprop="name" content="Dataset Consultores Y Asesores Gómez SA">
+                        <meta itemprop="description" content="Análisis de validación de emails para Consultores Y Asesores Gómez SA">
+                    </div>
+
+                    <!-- MASSOLUTION SAS -->
+                    <div class="company-card" itemscope itemtype="https://schema.org/Organization">
+                        <div class="company-header">
+                            <i class="material-icons">business</i>
+                            <h3 itemprop="name">MASSOLUTION SAS</h3>
+                        </div>
+                        <div class="company-content">
+                            <table class="company-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Métrica</th>
+                                        <th scope="col">Cantidad</th>
+                                        <th scope="col">Porcentaje</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>Emails válidos</td>
+                                        <td class="status-valid">12,623</td>
+                                        <td class="metric-percentage valid">83.05%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Emails que rebotan</td>
+                                        <td class="status-bounce">2,552</td>
+                                        <td class="metric-percentage bounce">16.79%</td>
+                                    </tr>
+                                    <tr>
+                                        <td>Duplicados</td>
+                                        <td class="status-duplicate">25</td>
+                                        <td class="metric-percentage duplicate">0.16%</td>
+                                    </tr>
+                                    <tr class="total-row">
+                                        <td><strong>Total</strong></td>
+                                        <td><strong itemprop="size">15,200</strong></td>
+                                        <td><strong>100%</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <!-- Mobile View -->
+                            <div class="mobile-table-view">
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails válidos</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-valid">12,623</span>
+                                        <span class="metric-percentage valid">83.05%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Emails que rebotan</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-bounce">2,552</span>
+                                        <span class="metric-percentage bounce">16.79%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card">
+                                    <div class="mobile-card-header">Duplicados</div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value status-duplicate">25</span>
+                                        <span class="metric-percentage duplicate">0.16%</span>
+                                    </div>
+                                </div>
+                                <div class="mobile-card total-card">
+                                    <div class="mobile-card-header"><strong>Total</strong></div>
+                                    <div class="mobile-card-content">
+                                        <span class="mobile-card-value"><strong>15,200</strong></span>
+                                        <span class="metric-percentage"><strong>100%</strong></span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <meta itemprop="name" content="Dataset MASSOLUTION SAS">
+                        <meta itemprop="description" content="Análisis de validación de emails para MASSOLUTION SAS">
+                    </div>
+                </div>
+            </section>
+
+            <!-- Insights Section -->
+            <section id="insights" class="section-anchor">
+                <h2 class="section-title">Insights y Recomendaciones de Optimización - Agosto 2025</h2>
+                
+                <div class="insights-grid">
+                    <div class="insight-card success">
+                        <div class="insight-header">
+                            <i class="material-icons">verified</i>
+                            <h3>Calidad General Excelente</h3>
+                        </div>
+                        <div class="insight-content">
+                            <p>Con un 84.16% de emails válidos, la base de datos muestra una excelente calidad general. Esto indica procesos de recolección de datos efectivos.</p>
+                        </div>
+                    </div>
+
+                    <div class="insight-card warning">
+                        <div class="insight-header">
+                            <i class="material-icons">info</i>
+                            <h3>Duplicados Mínimos Detectados</h3>
+                        </div>
+                        <div class="insight-content">
+                            <p>Solo 58 duplicados (0.14%) fueron encontrados, lo que demuestra un buen control de calidad en la gestión de contactos.</p>
+                        </div>
+                    </div>
+
+                    <div class="insight-card danger">
+                        <div class="insight-header">
+                            <i class="material-icons">trending_up</i>
+                            <h3>Oportunidad de Optimización</h3>
+                        </div>
+                        <div class="insight-content">
+                            <p>6,438 emails (15.70%) presentan rebote. Se recomienda implementar validación en tiempo real para mejorar la tasa de entrega.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Detailed Analysis Section -->
+            <section id="detallado" class="section-anchor">
+                <h2 class="section-title">Análisis Detallado por Empresa - Agosto 2025</h2>
+                
+                <div class="detailed-grid">
+                    <div class="detailed-card">
+                        <h3>A&S Soluciones Estratégicas SAS</h3>
+                        <div class="table-container">
+                            <table class="detailed-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Etiquetas de fila</th>
+                                        <th scope="col">Cuenta de número obligación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>EMAIL válido</td><td>10322</td></tr>
+                                    <tr><td>1</td><td>10089</td></tr>
+                                    <tr><td>2</td><td>225</td></tr>
+                                    <tr><td>3</td><td>8</td></tr>
+                                    <tr><td>Rebota</td><td>1934</td></tr>
+                                    <tr><td>Duplicados</td><td>14</td></tr>
+                                    <tr class="total-row"><td><strong>Total general</strong></td><td><strong>12270</strong></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="detailed-card">
+                        <h3>Consultores Y Asesores Gómez SA</h3>
+                        <div class="table-container">
+                            <table class="detailed-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Etiquetas de fila</th>
+                                        <th scope="col">Cuenta de número obligación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>EMAIL válido</td><td>11570</td></tr>
+                                    <tr><td>1</td><td>11322</td></tr>
+                                    <tr><td>2</td><td>241</td></tr>
+                                    <tr><td>3</td><td>6</td></tr>
+                                    <tr><td>4</td><td>1</td></tr>
+                                    <tr><td>Rebota</td><td>1952</td></tr>
+                                    <tr><td>Duplicados</td><td>19</td></tr>
+                                    <tr class="total-row"><td><strong>Total general</strong></td><td><strong>13541</strong></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+
+                    <div class="detailed-card">
+                        <h3>Massolution SAS</h3>
+                        <div class="table-container">
+                            <table class="detailed-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Etiquetas de fila</th>
+                                        <th scope="col">Cuenta de número obligación</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr><td>EMAIL válido</td><td>12623</td></tr>
+                                    <tr><td>1</td><td>12379</td></tr>
+                                    <tr><td>2</td><td>232</td></tr>
+                                    <tr><td>3</td><td>12</td></tr>
+                                    <tr><td>Rebota</td><td>2552</td></tr>
+                                    <tr><td>Duplicados</td><td>25</td></tr>
+                                    <tr class="total-row"><td><strong>Total general</strong></td><td><strong>15200</strong></td></tr>
+                                </tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Duplicates Section -->
+            <section id="duplicados" class="duplicates-section section-anchor">
+                <h2 class="duplicates-title">
+                    <i class="material-icons">content_copy</i>
+                    Análisis Detallado de Correos Duplicados - Agosto 2025
+                </h2>
+                <div class="duplicates-summary">
+                    <div class="duplicates-count">
+                        <span class="count-label">Total de correos duplicados:</span>
+                        <span class="count-value">58</span>
+                    </div>
+                    <p class="duplicates-description">
+                        La siguiente tabla muestra el detalle de correos duplicados encontrados por empresa, 
+                        incluyendo el número de apariciones en cada fideicomiso.
+                    </p>
+                </div>
+                
+                <div class="duplicates-detailed-container">
+                    <div class="duplicates-card">
+                        <h3 class="duplicates-card-title">
+                            <i class="material-icons">analytics</i>
+                            Tabla Detallada de Duplicados por Empresa
+                        </h3>
+                        <div class="duplicates-table-container">
+                            <table class="duplicates-detailed-table" role="table">
+                                <thead>
+                                    <tr>
+                                        <th scope="col" rowspan="2" class="email-header">Correo Electrónico</th>
+                                        <th scope="col" colspan="4" class="companies-header">Apariciones por Empresa</th>
+                                    </tr>
+                                    <tr>
+                                        <th scope="col" class="company-col">A&S Soluciones Estratégicas SAS</th>
+                                        <th scope="col" class="company-col">Consultores Y Asesores Gómez SAS</th>
+                                        <th scope="col" class="company-col">Massolution SAS</th>
+                                        <th scope="col" class="total-col">Total General</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td class="email-cell">danis0521@hotmail.com</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="count-cell empty">-</td>
+                                        <td class="count-cell">8</td>
+                                        <td class="total-cell">11</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">dentix@dentix.co</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="count-cell">2</td>
+                                        <td class="total-cell">8</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">dentix@hotmail.com</td>
+                                        <td class="count-cell">2</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="count-cell">1</td>
+                                        <td class="total-cell">6</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">jalulodi@hotmail.com</td>
+                                        <td class="count-cell">1</td>
+                                        <td class="count-cell">2</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="total-cell">6</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">subdirector.centromedellin@dentix.co</td>
+                                        <td class="count-cell">3</td>
+                                        <td class="count-cell">5</td>
+                                        <td class="count-cell">9</td>
+                                        <td class="total-cell highlight">17</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">tres64@gmail.com</td>
+                                        <td class="count-cell empty">-</td>
+                                        <td class="count-cell">5</td>
+                                        <td class="count-cell empty">-</td>
+                                        <td class="total-cell">5</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="email-cell">ximeur18@yahoo.com</td>
+                                        <td class="count-cell">2</td>
+                                        <td class="count-cell">1</td>
+                                        <td class="count-cell">2</td>
+                                        <td class="total-cell">5</td>
+                                    </tr>
+                                    <tr class="total-row">
+                                        <td class="email-cell"><strong>Total General</strong></td>
+                                        <td class="count-cell total"><strong>14</strong></td>
+                                        <td class="count-cell total"><strong>19</strong></td>
+                                        <td class="count-cell total"><strong>25</strong></td>
+                                        <td class="total-cell total"><strong>58</strong></td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        
+                        <!-- Mobile View for Duplicates -->
+                        <div class="duplicates-mobile-view">
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">danis0521@hotmail.com</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">-</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">8</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">11</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">dentix@dentix.co</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">2</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">8</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">dentix@hotmail.com</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">2</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">1</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">6</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">jalulodi@hotmail.com</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">1</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">2</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">6</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card highlight">
+                                <div class="duplicate-email">subdirector.centromedellin@dentix.co</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">3</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">5</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">9</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">17</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">tres64@gmail.com</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">-</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">5</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">-</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">5</span>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="duplicate-mobile-card">
+                                <div class="duplicate-email">ximeur18@yahoo.com</div>
+                                <div class="duplicate-details">
+                                    <div class="detail-row">
+                                        <span class="company-name">A&S Soluciones:</span>
+                                        <span class="count-value">2</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Consultores Gómez:</span>
+                                        <span class="count-value">1</span>
+                                    </div>
+                                    <div class="detail-row">
+                                        <span class="company-name">Massolution:</span>
+                                        <span class="count-value">2</span>
+                                    </div>
+                                    <div class="detail-row total">
+                                        <span class="company-name">Total:</span>
+                                        <span class="count-value">5</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- Footer -->
+        <footer class="footer-section">
+            <i class="material-icons">analytics</i>
+            Informe generado por el sistema de análisis de datos de Coltefinanciera | 
+            <i class="material-icons">verified</i>
+            Datos validados y procesados
+        </footer>
+    </div>
+
+    <!-- Progress Indicator -->
+    <div class="scroll-progress">
+        <div class="scroll-indicator" id="scrollIndicator"></div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="script.js"></script>
+</body>
+</html>
